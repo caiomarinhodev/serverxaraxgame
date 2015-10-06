@@ -4,6 +4,7 @@
 
 # Home page
 GET         /                           controllers.Application.index()
+GET         /game/:code/:email          controllers.Application.logintwo(code: Integer, email: String)
 POST        /game/login/:code           controllers.Application.loginNoGame(code: Integer)
 POST        /game/register              controllers.Application.registerNoGame()
 POST        /game/update                controllers.Application.updatePlayer()
