@@ -1,7 +1,624 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78c7ce34-f21d-4fc0-a5fa-817acf00efe8" name="Default" comment="" />
+    <list default="true" id="78c7ce34-f21d-4fc0-a5fa-817acf00efe8" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\bootstrap\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\bootstrap\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\bootstrap\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\bootstrap\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\bootstrap\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\bootstrap\js\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\image.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\resize.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\size.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\mixins\vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\bootstrap-less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\404_500_errors.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\AdminLTE.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\bootstrap-social.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\boxes.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\callout.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\core.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\direct-chat.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\dropdown.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\fullcalendar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\header.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\info-box.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\invoice.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\lockscreen.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\login_and_register.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\mailbox.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\miscellaneous.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\modal.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\navs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\print.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\products.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\sidebar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\skins\_all-skins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\skins\skin-black.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\skins\skin-blue.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\skins\skin-green.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\skins\skin-purple.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\skins\skin-red.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\skins\skin-yellow.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\small-box.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\table.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\timeline.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\users-list.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\build\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\css\bootstrap-datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\css\bootstrap-datepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\css\bootstrap-datepicker.standalone.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\css\bootstrap-datepicker.standalone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\css\bootstrap-datepicker3.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\css\bootstrap-datepicker3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\css\bootstrap-datepicker3.standalone.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\css\bootstrap-datepicker3.standalone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\js\bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\js\bootstrap-datepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.ar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.az.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.bg.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.bs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.ca.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.cs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.cy.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.da.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.de.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.el.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.en-GB.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.es.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.et.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.eu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.fa.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.fi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.fo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.fr-CH.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.fr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.gl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.he.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.hr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.hu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.hy.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.id.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.is.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.it-CH.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.it.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.ja.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.ka.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.kh.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.kk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.kr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.lt.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.lv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.me.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.mk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.ms.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.nb.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.nl-BE.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.nl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.no.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.pl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.pt-BR.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.pt.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.ro.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.rs-latin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.rs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.ru.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.sk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.sl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.sq.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.sr-latin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.sr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.sv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.sw.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.th.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.tr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.uk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.vi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.zh-CN.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\locales\bootstrap-datepicker.zh-TW.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datatables\dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datatables\dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datatables\images\sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datatables\images\sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datatables\images\sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datatables\images\sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datatables\images\sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datatables\jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\datepicker3.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.ar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.az.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.bg.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.cs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.cy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.da.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.de.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.el.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.es.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.et.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.fa.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.fi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.fr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.gl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.he.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.hr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.hu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.id.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.is.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.it.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.ja.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.ka.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.kk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.kr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.lt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.lv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.mk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.ms.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.nb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.nl-BE.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.nl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.no.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.pl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.pt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.ro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.rs-latin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.rs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.ru.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.sk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.sl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.sq.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.sv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.sw.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.th.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.tr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.ua.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.vi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\datepicker\locales\bootstrap-datepicker.zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\daterangepicker\daterangepicker-bs3.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\daterangepicker\daterangepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\input-mask\jquery.inputmask.date.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\input-mask\jquery.inputmask.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\input-mask\jquery.inputmask.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\input-mask\jquery.inputmask.numeric.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\input-mask\jquery.inputmask.phone.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\input-mask\jquery.inputmask.regex.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\input-mask\phone-codes\phone-be.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\input-mask\phone-codes\phone-codes.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\input-mask\phone-codes\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\jQueryUI\jquery-ui-1.10.3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\jQueryUI\jquery-ui-1.10.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\jQuery\jQuery-2.1.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\knob\jquery.knob.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\overHang.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\slimScroll\jquery.slimscroll.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\slimScroll\jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\sparkline\jquery.sparkline.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\sparkline\jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\timepicker\bootstrap-timepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\timepicker\bootstrap-timepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\timepicker\bootstrap-timepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\plugins\timepicker\bootstrap-timepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\AdminLTE.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\AdminLTE.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\_all-skins.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\_all-skins.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\skin-black.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\skin-black.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\skin-blue.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\skin-blue.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\skin-green.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\skin-green.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\skin-purple.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\skin-purple.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\skin-red.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\skin-red.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\skin-yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\css\skins\skin-yellow.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\avatar04.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\avatar2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\avatar3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\avatar5.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\boxed-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\boxed-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\credit\american-express.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\credit\cirrus.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\credit\mastercard.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\credit\mestro.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\credit\paypal.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\credit\paypal2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\credit\visa.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\default-50x50.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\icons.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\photo1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\photo2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\user1-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\user2-160x160.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\user3-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\user4-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\user5-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\user6-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\user7-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\img\user8-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\js\app.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\js\app.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\js\demo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\js\pages\dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\tema\js\pages\dashboard2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\web\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\web\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\web\images\gplus.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\web\images\iface.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\web\images\iphones.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\web\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\web\images\logtt.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\web\images\phone.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\web\js\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\scala-2.11\test-classes\public\assets\web\js\responsiveslides.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\bootstrap\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\bootstrap\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\bootstrap\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\bootstrap\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\bootstrap\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\bootstrap\js\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\image.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\resize.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\size.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\mixins\vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\bootstrap-less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\404_500_errors.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\AdminLTE.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\bootstrap-social.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\boxes.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\callout.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\core.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\direct-chat.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\dropdown.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\fullcalendar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\header.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\info-box.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\invoice.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\lockscreen.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\login_and_register.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\mailbox.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\miscellaneous.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\modal.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\navs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\print.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\products.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\sidebar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\skins\_all-skins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\skins\skin-black.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\skins\skin-blue.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\skins\skin-green.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\skins\skin-purple.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\skins\skin-red.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\skins\skin-yellow.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\small-box.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\table.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\timeline.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\users-list.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\build\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\css\bootstrap-datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\css\bootstrap-datepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\css\bootstrap-datepicker.standalone.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\css\bootstrap-datepicker.standalone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\css\bootstrap-datepicker3.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\css\bootstrap-datepicker3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\css\bootstrap-datepicker3.standalone.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\css\bootstrap-datepicker3.standalone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\js\bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\js\bootstrap-datepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.ar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.az.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.bg.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.bs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.ca.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.cs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.cy.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.da.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.de.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.el.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.en-GB.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.es.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.et.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.eu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.fa.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.fi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.fo.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.fr-CH.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.fr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.gl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.he.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.hr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.hu.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.hy.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.id.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.is.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.it-CH.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.it.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.ja.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.ka.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.kh.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.kk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.kr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.lt.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.lv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.me.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.mk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.ms.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.nb.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.nl-BE.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.nl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.no.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.pl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.pt-BR.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.pt.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.ro.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.rs-latin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.rs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.ru.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.sk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.sl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.sq.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.sr-latin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.sr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.sv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.sw.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.th.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.tr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.uk.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.vi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.zh-CN.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\locales\bootstrap-datepicker.zh-TW.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datatables\dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datatables\dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datatables\images\sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datatables\images\sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datatables\images\sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datatables\images\sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datatables\images\sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datatables\jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\datepicker3.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.ar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.az.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.bg.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.cs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.cy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.da.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.de.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.el.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.es.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.et.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.fa.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.fi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.fr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.gl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.he.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.hr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.hu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.id.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.is.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.it.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.ja.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.ka.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.kk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.kr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.lt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.lv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.mk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.ms.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.nb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.nl-BE.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.nl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.no.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.pl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.pt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.ro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.rs-latin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.rs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.ru.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.sk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.sl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.sq.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.sv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.sw.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.th.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.tr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.ua.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.vi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\datepicker\locales\bootstrap-datepicker.zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\daterangepicker\daterangepicker-bs3.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\daterangepicker\daterangepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\input-mask\jquery.inputmask.date.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\input-mask\jquery.inputmask.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\input-mask\jquery.inputmask.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\input-mask\jquery.inputmask.numeric.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\input-mask\jquery.inputmask.phone.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\input-mask\jquery.inputmask.regex.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\input-mask\phone-codes\phone-be.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\input-mask\phone-codes\phone-codes.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\input-mask\phone-codes\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\jQueryUI\jquery-ui-1.10.3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\jQueryUI\jquery-ui-1.10.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\jQuery\jQuery-2.1.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\knob\jquery.knob.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\overHang.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\slimScroll\jquery.slimscroll.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\slimScroll\jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\sparkline\jquery.sparkline.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\sparkline\jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\timepicker\bootstrap-timepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\timepicker\bootstrap-timepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\timepicker\bootstrap-timepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\plugins\timepicker\bootstrap-timepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\AdminLTE.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\AdminLTE.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\_all-skins.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\_all-skins.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\skin-black.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\skin-black.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\skin-blue.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\skin-blue.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\skin-green.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\skin-green.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\skin-purple.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\skin-purple.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\skin-red.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\skin-red.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\skin-yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\css\skins\skin-yellow.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\avatar04.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\avatar2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\avatar3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\avatar5.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\boxed-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\boxed-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\credit\american-express.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\credit\cirrus.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\credit\mastercard.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\credit\mestro.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\credit\paypal.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\credit\paypal2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\credit\visa.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\default-50x50.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\icons.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\photo1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\photo2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\user1-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\user2-160x160.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\user3-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\user4-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\user5-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\user6-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\user7-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\img\user8-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\js\app.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\js\app.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\js\demo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\js\pages\dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\tema\js\pages\dashboard2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\web\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\web\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\web\images\gplus.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\web\images\iface.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\web\images\iphones.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\web\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\web\images\logtt.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\web\images\phone.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\web\js\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Caio\Downloads\salaorocha\target\web\public\main\assets\web\js\responsiveslides.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Usuario.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Usuario.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/copy-resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$$anonfun$f$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$$anonfun$f$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/html/index.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes_managed/views/html/index.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/assets/$global/streams/sync-mappings" afterPath="$PROJECT_DIR$/target/streams/$global/assets/$global/streams/sync-mappings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Usuario.java" afterPath="$PROJECT_DIR$/app/models/Usuario.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.scala.html" afterPath="$PROJECT_DIR$/app/views/index.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/views/index.scala.html" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/views/index.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/twirl/main/views/html/index.template.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/play2_project_settings.xml" afterPath="$PROJECT_DIR$/.idea/play2_project_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/cache/salaorocha/compile/play_instrumentation" afterPath="$PROJECT_DIR$/target/scala-2.11/cache/salaorocha/compile/play_instrumentation" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/cache/salaorocha/test/play_instrumentation" afterPath="$PROJECT_DIR$/target/scala-2.11/cache/salaorocha/test/play_instrumentation" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="salaorocha.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +645,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74594593" vertical-offset="181" max-vertical-offset="1173">
-              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="1105">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,21 +657,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scala.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
+      <file leaf-file-name="index.scala.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="357">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state vertical-scroll-proportion="-27.5" vertical-offset="203" max-vertical-offset="1173">
+              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.scala.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <file leaf-file-name="Global.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Global.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="731">
+              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Usuario.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/Usuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5323529" vertical-offset="397" max-vertical-offset="1054">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -64,7 +691,7 @@
         <entry file="file://$PROJECT_DIR$/conf/routes">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -78,13 +705,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/models/Usuario.java" />
         <option value="$PROJECT_DIR$/app/controllers/Sistema.java" />
         <option value="$PROJECT_DIR$/app/Global.java" />
         <option value="$PROJECT_DIR$/conf/routes" />
-        <option value="$PROJECT_DIR$/app/controllers/Application.java" />
         <option value="$PROJECT_DIR$/app/views/main.scala.html" />
         <option value="$PROJECT_DIR$/app/views/index.scala.html" />
+        <option value="$PROJECT_DIR$/app/controllers/Application.java" />
+        <option value="$PROJECT_DIR$/app/models/Usuario.java" />
       </list>
     </option>
   </component>
@@ -92,9 +719,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="683" />
-    <option name="width" value="683" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -122,6 +750,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -151,24 +780,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="salaorocha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="salaorocha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,7 +867,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,6 +882,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Play 2 App.Unnamed">
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -432,6 +1043,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
@@ -584,7 +1201,13 @@
       <setting name="play2IsNonDefaultInstallDirUsed" value="false" />
       <setting name="play2NonDefaultInstallDir" value="" />
       <setting name="play2isAutoReloadEnabled" value="false" />
+      <RunnerSettings RunnerId="Play2AppDebugRunner">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Play2AppRunner" />
+      <ConfigurationWrapper RunnerId="Play2AppDebugRunner" />
       <ConfigurationWrapper RunnerId="Play2AppRunner" />
       <method />
     </configuration>
@@ -619,6 +1242,9 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="78c7ce34-f21d-4fc0-a5fa-817acf00efe8" name="Default" comment="" />
@@ -626,15 +1252,16 @@
       <option name="number" value="Default" />
       <updated>1444155048928</updated>
       <workItem from="1444155053355" duration="51000" />
-      <workItem from="1444158366680" duration="2379000" />
+      <workItem from="1444158366680" duration="3208000" />
+      <workItem from="1444162440923" duration="1782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2430000" />
+    <option name="totallyTimeSpent" value="5041000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="683" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -649,25 +1276,25 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9412752" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.52969503" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18381241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -688,7 +1315,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -696,10 +1325,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Global.java">
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61295974" vertical-offset="160" max-vertical-offset="731">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="357">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -712,38 +1351,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Usuario.java">
+    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8544521" vertical-offset="130" max-vertical-offset="1394">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding>
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.16068053" vertical-offset="0" max-vertical-offset="529">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -751,26 +1362,50 @@
     <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-java-jpa_2.11/jars/play-java-jpa_2.11-2.3.8.jar!/play/db/jpa/JPA.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="357">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state vertical-scroll-proportion="3.5695364" vertical-offset="1098" max-vertical-offset="3366">
+          <caret line="143" column="33" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74594593" vertical-offset="181" max-vertical-offset="1173">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="1105">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.5" vertical-offset="203" max-vertical-offset="1173">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Global.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="731">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5323529" vertical-offset="397" max-vertical-offset="1054">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

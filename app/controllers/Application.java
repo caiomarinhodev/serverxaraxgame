@@ -21,7 +21,7 @@ public class Application extends Controller {
         Inicia mapper para render login e registro
      */
 
-
+    @Transactional
     public static Result loginNoGame(Integer code) {
         if (code == 666) {
             DynamicForm r = Form.form().bindFromRequest();
@@ -29,20 +29,15 @@ public class Application extends Controller {
             email = r.get("email");
             senha = r.get("senha");
             Usuario u = null;
-            try {
-                u = Sistema.getUsuario(email);
-            } catch (Exception e) {
-                Logger.info("Usuario nao cadastrado!");
-            }
+            u = Sistema.getUsuario(email);
             if (u != null) {
-                if (u.getSenha().equals(senha)) {
-                    return ok(Json.parse(Sistema.getPlayer(u)));
-                }
+                return ok(Json.parse(Sistema.getPlayer(u)));
             }
         }
         return ok();
     }
 
+    @Transactional
     public static Result registerNoGame() {
         DynamicForm r = Form.form().bindFromRequest();
         String email, senha, nome;
@@ -54,6 +49,7 @@ public class Application extends Controller {
         return ok(Json.parse(u.getPlayer()));
     }
 
+    @Transactional
     public static Result updatePlayer() {
         DynamicForm r = Form.form().bindFromRequest();
         String player = r.get("player");

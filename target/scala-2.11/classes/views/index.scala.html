@@ -3,7 +3,62 @@
 <html>
 <head>
 <title>SERVER</title>
+    <link href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+
     <h2>SERVER RODANDO</h2>
+    <br/>
+        <form method="post" action="/game/login/666">
+            Email:<br>
+            <input type="email" name="email" >
+            <br>
+            Senha:<br>
+            <input type="password" name="senha" >
+            <button type="submit">SUBMIT</button>
+        </form>
+    <br/><br/><br/>
+
+    <table id="table" class="table table-hover table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Senha</th>
+                <th>Player</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for(po <- Sistema.getTodosUsuarios){
+                <tr>
+                    <td>@po.getId</td>
+                    <td>@po.getNome</td>
+                    <td>@po.getEmail</td>
+                    <td>@po.getSenha</td>
+                    <td>@po.getPlayer</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br/><br/>
+    <form method="post" action="/game/register">
+        Email:<br>
+        <input type="nome" name="nome" >
+        <br>
+        Email:<br>
+        <input type="email" name="email" >
+        <br>
+        Senha:<br>
+        <input type="password" name="senha">
+        <button type="submit">SUBMIT</button>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js" type="text/javascript"></script>
+
+    <script>
+    $(document).ready(function() {
+        $('#table').DataTable();
+    } );
+    </script>
 </body>
