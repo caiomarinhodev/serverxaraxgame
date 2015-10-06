@@ -32,7 +32,7 @@ public class Usuario {
         this.nome = nome;
         this.email = email;
         this.senha = senha;
-        this.player = "{}";
+        this.player = "{player: ''}";
     }
 
     public Long getId() {

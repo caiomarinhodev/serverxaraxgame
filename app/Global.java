@@ -36,7 +36,11 @@ public class Global extends GlobalSettings {
 //                    dao.flush();
 //                }
 
-            
+                for(Usuario u: Sistema.getTodosUsuarios()){
+                    dao.remove(u);
+                }
+                dao.flush();
+
             }
         });
     }
