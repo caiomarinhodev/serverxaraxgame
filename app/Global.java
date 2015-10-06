@@ -36,13 +36,7 @@ public class Global extends GlobalSettings {
 //                    dao.flush();
 //                }
 
-                if (!Sistema.existeAdmin()) {
-                    String fo = "https://cdn4.iconfinder.com/data/icons/meBaze-Freebies/512/user.png";
-                    Usuario u = new Usuario("Admin", "admin@admin.com", "oficinag3");
-                    dao.persist(u);
-                    dao.flush();
-                    Logger.info("Inserindo dados no BD.");
-                }
+            
             }
         });
     }
