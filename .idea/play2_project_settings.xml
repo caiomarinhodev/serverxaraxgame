@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Play2ExcludedModulesSettings">
+    <option name="INFO">
+      <map>
+        <entry key="salaorocha">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="version" value="2.3.8" />
+              <option name="sourceDir" value="C:\Users\Caio\Downloads\salaorocha\app" />
+              <option name="confDir" value="C:\Users\Caio\Downloads\salaorocha\conf" />
+              <option name="playDistrPath" value="$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.3.8.jar" />
+              <option name="routesImports">
+                <list>
+                  <option value="controllers.Assets.Asset" />
+                  <option value="play.libs.F" />
+                </list>
+              </option>
+              <option name="uri" value="/C:/Users/Caio/Downloads/salaorocha" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
