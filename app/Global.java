@@ -30,10 +30,7 @@ public class Global extends GlobalSettings {
 
                 List<Usuario> lu = Sistema.getTodosUsuarios();
                 Logger.info("LEN "+lu.size());
-                for(Usuario u: lu){
-                    dao.remove(u);
-                }
-                dao.flush();
+                
             }
         });
     }
