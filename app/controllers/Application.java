@@ -8,6 +8,7 @@ import play.db.jpa.Transactional;
 import play.libs.Json;
 import play.mvc.Controller;
 import play.mvc.Result;
+import play.mvc.Results;
 import views.html.index;
 
 public class Application extends Controller {
@@ -34,7 +35,7 @@ public class Application extends Controller {
                 return ok(Json.parse(Sistema.getPlayer(u)));
             }
         }
-        return ok();
+        return Results.badRequest();
     }
 
     @Transactional
@@ -46,6 +47,7 @@ public class Application extends Controller {
                 return ok(Json.parse(Sistema.getPlayer(u)));
             }
         }
+        return Results.badRequest();
     }
 
     @Transactional
