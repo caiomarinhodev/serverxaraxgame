@@ -1,6 +1,6 @@
 // @SOURCE:C:/Users/Caio/Downloads/salaorocha/conf/routes
-// @HASH:ef403456ec94f50dd98d3d4f12c0985361cee97b
-// @DATE:Tue Oct 06 16:38:49 BRT 2015
+// @HASH:3189a4dd7baf8b68ae13fdded7997d2f34f3f1a8
+// @DATE:Wed Oct 07 12:05:30 BRT 2015
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -15,27 +15,27 @@ import _root_.play.libs.F
 import Router.queryString
 
 
-// @LINE:14
-// @LINE:13
-// @LINE:12
+// @LINE:17
+// @LINE:16
+// @LINE:15
 // @LINE:9
 // @LINE:8
 // @LINE:7
 // @LINE:6
 package controllers {
 
-// @LINE:14
-// @LINE:13
-// @LINE:12
+// @LINE:17
+// @LINE:16
+// @LINE:15
 class ReverseAssets {
 
 
-// @LINE:14
-// @LINE:13
-// @LINE:12
+// @LINE:17
+// @LINE:16
+// @LINE:15
 def at(file:String): Call = {
    (file: @unchecked) match {
-// @LINE:12
+// @LINE:15
 case (file)  =>
   implicit val _rrc = new ReverseRouteContext(Map(("path", "/public/assets/")))
   Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
@@ -54,24 +54,24 @@ case (file)  =>
 class ReverseApplication {
 
 
-// @LINE:7
-def loginNoGame(code:Integer): Call = {
-   import ReverseRouteContext.empty
-   Call("POST", _prefix + { _defaultPrefix } + "game/login/" + implicitly[PathBindable[Integer]].unbind("code", code))
-}
-                        
-
 // @LINE:9
-def updatePlayer(): Call = {
+def update(email:String, moedas:String, nivel:String, pontos:String): Call = {
    import ReverseRouteContext.empty
-   Call("POST", _prefix + { _defaultPrefix } + "game/update")
+   Call("GET", _prefix + { _defaultPrefix } + "game/update/" + implicitly[PathBindable[String]].unbind("email", dynamicString(email)) + "/" + implicitly[PathBindable[String]].unbind("moedas", dynamicString(moedas)) + "/" + implicitly[PathBindable[String]].unbind("nivel", dynamicString(nivel)) + "/" + implicitly[PathBindable[String]].unbind("pontos", dynamicString(pontos)))
 }
                         
 
 // @LINE:8
-def registerNoGame(): Call = {
+def register(email:String): Call = {
    import ReverseRouteContext.empty
-   Call("POST", _prefix + { _defaultPrefix } + "game/register")
+   Call("GET", _prefix + { _defaultPrefix } + "game/register/" + implicitly[PathBindable[String]].unbind("email", dynamicString(email)))
+}
+                        
+
+// @LINE:7
+def login(code:Integer, email:String): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "game/login/" + implicitly[PathBindable[Integer]].unbind("code", code) + "/" + implicitly[PathBindable[String]].unbind("email", dynamicString(email)))
 }
                         
 
@@ -88,9 +88,9 @@ def index(): Call = {
                   
 
 
-// @LINE:14
-// @LINE:13
-// @LINE:12
+// @LINE:17
+// @LINE:16
+// @LINE:15
 // @LINE:9
 // @LINE:8
 // @LINE:7
@@ -98,15 +98,15 @@ def index(): Call = {
 package controllers.javascript {
 import ReverseRouteContext.empty
 
-// @LINE:14
-// @LINE:13
-// @LINE:12
+// @LINE:17
+// @LINE:16
+// @LINE:15
 class ReverseAssets {
 
 
-// @LINE:14
-// @LINE:13
-// @LINE:12
+// @LINE:17
+// @LINE:16
+// @LINE:15
 def at : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.at",
    """
@@ -135,34 +135,34 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 class ReverseApplication {
 
 
-// @LINE:7
-def loginNoGame : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.Application.loginNoGame",
-   """
-      function(code) {
-      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "game/login/" + (""" + implicitly[PathBindable[Integer]].javascriptUnbind + """)("code", code)})
-      }
-   """
-)
-                        
-
 // @LINE:9
-def updatePlayer : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.Application.updatePlayer",
+def update : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.update",
    """
-      function() {
-      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "game/update"})
+      function(email,moedas,nivel,pontos) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "game/update/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("email", encodeURIComponent(email)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("moedas", encodeURIComponent(moedas)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("nivel", encodeURIComponent(nivel)) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("pontos", encodeURIComponent(pontos))})
       }
    """
 )
                         
 
 // @LINE:8
-def registerNoGame : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.Application.registerNoGame",
+def register : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.register",
    """
-      function() {
-      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "game/register"})
+      function(email) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "game/register/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("email", encodeURIComponent(email))})
+      }
+   """
+)
+                        
+
+// @LINE:7
+def login : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.login",
+   """
+      function(code,email) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "game/login/" + (""" + implicitly[PathBindable[Integer]].javascriptUnbind + """)("code", code) + "/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("email", encodeURIComponent(email))})
       }
    """
 )
@@ -185,9 +185,9 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
-// @LINE:14
-// @LINE:13
-// @LINE:12
+// @LINE:17
+// @LINE:16
+// @LINE:15
 // @LINE:9
 // @LINE:8
 // @LINE:7
@@ -195,13 +195,13 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
 package controllers.ref {
 
 
-// @LINE:14
-// @LINE:13
-// @LINE:12
+// @LINE:17
+// @LINE:16
+// @LINE:15
 class ReverseAssets {
 
 
-// @LINE:12
+// @LINE:15
 def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Assets.at(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
 )
@@ -217,21 +217,21 @@ def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 class ReverseApplication {
 
 
-// @LINE:7
-def loginNoGame(code:Integer): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.loginNoGame(code), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "loginNoGame", Seq(classOf[Integer]), "POST", """""", _prefix + """game/login/$code<[^/]+>""")
-)
-                      
-
 // @LINE:9
-def updatePlayer(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.updatePlayer(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "updatePlayer", Seq(), "POST", """""", _prefix + """game/update""")
+def update(email:String, moedas:String, nivel:String, pontos:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.update(email, moedas, nivel, pontos), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "update", Seq(classOf[String], classOf[String], classOf[String], classOf[String]), "GET", """""", _prefix + """game/update/$email<[^/]+>/$moedas<[^/]+>/$nivel<[^/]+>/$pontos<[^/]+>""")
 )
                       
 
 // @LINE:8
-def registerNoGame(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.registerNoGame(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "registerNoGame", Seq(), "POST", """""", _prefix + """game/register""")
+def register(email:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.register(email), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "register", Seq(classOf[String]), "GET", """""", _prefix + """game/register/$email<[^/]+>""")
+)
+                      
+
+// @LINE:7
+def login(code:Integer, email:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.login(code, email), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "login", Seq(classOf[Integer], classOf[String]), "GET", """""", _prefix + """game/login/$code<[^/]+>/$email<[^/]+>""")
 )
                       
 

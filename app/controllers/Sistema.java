@@ -57,12 +57,10 @@ public class Sistema {
         return dao.findAllByClassName(Usuario.class.getName());
     }
 
-    public static String getPlayer(Usuario u){
-        return u.getPlayer();
-    }
-
-    public static void updatePlayer(Usuario u, String player){
-        u.setPlayer(player);
+    public static void updatePlayer(Usuario u, String moedas, String pontos, String nivel){
+        u.setMoedas(moedas);
+        u.setNivel(nivel);
+        u.setPontos(pontos);
         dao.merge(u);
         dao.flush();
     }

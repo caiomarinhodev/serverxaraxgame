@@ -20,9 +20,12 @@ public class Usuario {
     private String email;
     @Column
     private String senha;
-    @Lob
     @Column
-    private String player;
+    private String pontos;
+    @Column
+    private String nivel;
+    @Column
+    private String moedas;
 
     public Usuario(){
 
@@ -32,7 +35,33 @@ public class Usuario {
         this.nome = nome;
         this.email = email;
         this.senha = senha;
-        this.player = "{}";
+        this.pontos = "0";
+        this.nivel = "0";
+        this.moedas = "0";
+    }
+
+    public String getPontos() {
+        return pontos;
+    }
+
+    public void setPontos(String pontos) {
+        this.pontos = pontos;
+    }
+
+    public String getNivel() {
+        return nivel;
+    }
+
+    public void setNivel(String nivel) {
+        this.nivel = nivel;
+    }
+
+    public String getMoedas() {
+        return moedas;
+    }
+
+    public void setMoedas(String moedas) {
+        this.moedas = moedas;
     }
 
     public Long getId() {
@@ -67,11 +96,4 @@ public class Usuario {
         this.senha = senha;
     }
 
-    public String getPlayer() {
-        return player;
-    }
-
-    public void setPlayer(String player) {
-        this.player = player;
-    }
 }

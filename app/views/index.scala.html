@@ -9,14 +9,7 @@
 
     <h2>SERVER RODANDO</h2>
     <br/>
-        <form method="post" action="/game/login/666">
-            Email:<br>
-            <input type="email" name="email" >
-            <br>
-            Senha:<br>
-            <input type="password" name="senha" >
-            <button type="submit">SUBMIT</button>
-        </form>
+
     <br/><br/><br/>
 
     <table id="table" class="table table-hover table-striped">
@@ -26,7 +19,9 @@
                 <th>Nome</th>
                 <th>Email</th>
                 <th>Senha</th>
-                <th>Player</th>
+                <th>Pontos</th>
+                <th>Nivel</th>
+                <th>Moedas</th>
             </tr>
         </thead>
         <tbody>
@@ -36,23 +31,15 @@
                     <td>@po.getNome</td>
                     <td>@po.getEmail</td>
                     <td>@po.getSenha</td>
-                    <td>@po.getPlayer</td>
+                    <td>@po.getPontos</td>
+                    <td>@po.getNivel</td>
+                    <td>@po.getMoedas</td>
                 </tr>
             }
         </tbody>
     </table>
     <br/><br/>
-    <form method="post" action="/game/register">
-        Email:<br>
-        <input type="nome" name="nome" >
-        <br>
-        Email:<br>
-        <input type="email" name="email" >
-        <br>
-        Senha:<br>
-        <input type="password" name="senha">
-        <button type="submit">SUBMIT</button>
-    </form>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js" type="text/javascript"></script>
 

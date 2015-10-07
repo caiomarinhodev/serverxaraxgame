@@ -1,6 +1,6 @@
 // @SOURCE:C:/Users/Caio/Downloads/salaorocha/conf/routes
-// @HASH:ef403456ec94f50dd98d3d4f12c0985361cee97b
-// @DATE:Tue Oct 06 16:38:49 BRT 2015
+// @HASH:3189a4dd7baf8b68ae13fdded7997d2f34f3f1a8
+// @DATE:Wed Oct 07 12:05:30 BRT 2015
 
 package controllers;
 

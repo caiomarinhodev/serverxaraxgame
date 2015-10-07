@@ -3,18 +3,17 @@
 # ~~~~
 
 # Home page
-GET         /                           controllers.Application.index()
-GET         /game/:code/:email          controllers.Application.logintwo(code: Integer, email: String)
-POST        /game/login/:code           controllers.Application.loginNoGame(code: Integer)
-POST        /game/register              controllers.Application.registerNoGame()
-POST        /game/update                controllers.Application.updatePlayer()
-PUT         /game/testup                controllers.Application.update()
+GET        /                                                 controllers.Application.index()
+GET        /game/login/:code/:email                          controllers.Application.login(code: Integer, email: String)
+GET        /game/register/:email                             controllers.Application.register(email: String)
+GET        /game/update/:email/:moedas/:nivel/:pontos        controllers.Application.update(email: String, moedas: String, nivel: String, pontos: String)
+
 
 
 
 # Map static resources from the /public folder to the /assets URL path
-GET         /assets/*file               controllers.Assets.at(path="/public/assets/", file)
-GET         /remove/assets/*file        controllers.Assets.at(path="/public/assets/", file)
-GET         /rem/assets/*file           controllers.Assets.at(path="/public/assets/", file)
+GET        /assets/*file                                     controllers.Assets.at(path="/public/assets/", file)
+GET        /remove/assets/*file                              controllers.Assets.at(path="/public/assets/", file)
+GET        /rem/assets/*file                                 controllers.Assets.at(path="/public/assets/", file)
 
     

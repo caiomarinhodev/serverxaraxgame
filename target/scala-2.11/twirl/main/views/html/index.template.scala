@@ -54,20 +54,24 @@ Seq[Any](format.raw/*1.4*/("""
                 <th>Nome</th>
                 <th>Email</th>
                 <th>Senha</th>
-                <th>Player</th>
+                <th>Pontos</th>
+                <th>Nivel</th>
+                <th>Moedas</th>
             </tr>
         </thead>
         <tbody>
-            """),_display_(/*33.14*/for(po <- Sistema.getTodosUsuarios) yield /*33.49*/{_display_(Seq[Any](format.raw/*33.50*/("""
-                """),format.raw/*34.17*/("""<tr>
-                    <td>"""),_display_(/*35.26*/po/*35.28*/.getId),format.raw/*35.34*/("""</td>
-                    <td>"""),_display_(/*36.26*/po/*36.28*/.getNome),format.raw/*36.36*/("""</td>
-                    <td>"""),_display_(/*37.26*/po/*37.28*/.getEmail),format.raw/*37.37*/("""</td>
-                    <td>"""),_display_(/*38.26*/po/*38.28*/.getSenha),format.raw/*38.37*/("""</td>
-                    <td>"""),_display_(/*39.26*/po/*39.28*/.getPlayer),format.raw/*39.38*/("""</td>
+            """),_display_(/*35.14*/for(po <- Sistema.getTodosUsuarios) yield /*35.49*/{_display_(Seq[Any](format.raw/*35.50*/("""
+                """),format.raw/*36.17*/("""<tr>
+                    <td>"""),_display_(/*37.26*/po/*37.28*/.getId),format.raw/*37.34*/("""</td>
+                    <td>"""),_display_(/*38.26*/po/*38.28*/.getNome),format.raw/*38.36*/("""</td>
+                    <td>"""),_display_(/*39.26*/po/*39.28*/.getEmail),format.raw/*39.37*/("""</td>
+                    <td>"""),_display_(/*40.26*/po/*40.28*/.getSenha),format.raw/*40.37*/("""</td>
+                    <td>"""),_display_(/*41.26*/po/*41.28*/.getPontos),format.raw/*41.38*/("""</td>
+                    <td>"""),_display_(/*42.26*/po/*42.28*/.getNivel),format.raw/*42.37*/("""</td>
+                    <td>"""),_display_(/*43.26*/po/*43.28*/.getMoedas),format.raw/*43.38*/("""</td>
                 </tr>
-            """)))}),format.raw/*41.14*/("""
-        """),format.raw/*42.9*/("""</tbody>
+            """)))}),format.raw/*45.14*/("""
+        """),format.raw/*46.9*/("""</tbody>
     </table>
     <br/><br/>
     <form method="post" action="/game/register">
@@ -85,9 +89,9 @@ Seq[Any](format.raw/*1.4*/("""
     <script src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js" type="text/javascript"></script>
 
     <script>
-    $(document).ready(function() """),format.raw/*60.34*/("""{"""),format.raw/*60.35*/("""
-        """),format.raw/*61.9*/("""$('#table').DataTable();
-    """),format.raw/*62.5*/("""}"""),format.raw/*62.6*/(""" """),format.raw/*62.7*/(""");
+    $(document).ready(function() """),format.raw/*64.34*/("""{"""),format.raw/*64.35*/("""
+        """),format.raw/*65.9*/("""$('#table').DataTable();
+    """),format.raw/*66.5*/("""}"""),format.raw/*66.6*/(""" """),format.raw/*66.7*/(""");
     </script>
 </body>"""))}
   }
@@ -101,11 +105,11 @@ Seq[Any](format.raw/*1.4*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Tue Oct 06 17:31:47 BRT 2015
+                  DATE: Wed Oct 07 12:05:31 BRT 2015
                   SOURCE: C:/Users/Caio/Downloads/salaorocha/app/views/index.scala.html
-                  HASH: c69b3feeb0ccd98de6beb164e4c4ecad9b3e704c
-                  MATRIX: 716->1|805->3|833->5|1725->870|1776->905|1815->906|1861->924|1919->955|1930->957|1957->963|2016->995|2027->997|2056->1005|2115->1037|2126->1039|2156->1048|2215->1080|2226->1082|2256->1091|2315->1123|2326->1125|2357->1135|2431->1178|2468->1188|3124->1816|3153->1817|3190->1827|3247->1857|3275->1858|3303->1859
-                  LINES: 26->1|29->1|30->2|61->33|61->33|61->33|62->34|63->35|63->35|63->35|64->36|64->36|64->36|65->37|65->37|65->37|66->38|66->38|66->38|67->39|67->39|67->39|69->41|70->42|88->60|88->60|89->61|90->62|90->62|90->62
+                  HASH: 7390ea039066ebd3a011fed8d2c604b74cad677f
+                  MATRIX: 716->1|805->3|833->5|1790->935|1841->970|1880->971|1926->989|1984->1020|1995->1022|2022->1028|2081->1060|2092->1062|2121->1070|2180->1102|2191->1104|2221->1113|2280->1145|2291->1147|2321->1156|2380->1188|2391->1190|2422->1200|2481->1232|2492->1234|2522->1243|2581->1275|2592->1277|2623->1287|2697->1330|2734->1340|3390->1968|3419->1969|3456->1979|3513->2009|3541->2010|3569->2011
+                  LINES: 26->1|29->1|30->2|63->35|63->35|63->35|64->36|65->37|65->37|65->37|66->38|66->38|66->38|67->39|67->39|67->39|68->40|68->40|68->40|69->41|69->41|69->41|70->42|70->42|70->42|71->43|71->43|71->43|73->45|74->46|92->64|92->64|93->65|94->66|94->66|94->66
                   -- GENERATED --
               */
           
