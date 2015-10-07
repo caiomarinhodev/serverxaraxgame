@@ -57,7 +57,7 @@ public class Sistema {
         return dao.findAllByClassName(Usuario.class.getName());
     }
 
-    public static void updatePlayer(Usuario u, String moedas, String pontos, String nivel){
+    public static void updatePlayer(Usuario u, Integer moedas, Integer pontos, Integer nivel){
         u.setMoedas(moedas);
         u.setNivel(nivel);
         u.setPontos(pontos);

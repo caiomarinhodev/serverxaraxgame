@@ -21,11 +21,11 @@ public class Usuario {
     @Column
     private String senha;
     @Column
-    private String pontos;
+    private Integer pontos;
     @Column
-    private String nivel;
+    private Integer nivel;
     @Column
-    private String moedas;
+    private Integer moedas;
 
     public Usuario(){
 
@@ -35,32 +35,32 @@ public class Usuario {
         this.nome = nome;
         this.email = email;
         this.senha = senha;
-        this.pontos = "0";
-        this.nivel = "0";
-        this.moedas = "0";
+        this.pontos = 0;
+        this.nivel = 0;
+        this.moedas = 0;
     }
 
-    public String getPontos() {
+    public Integer getPontos() {
         return pontos;
     }
 
-    public void setPontos(String pontos) {
+    public void setPontos(Integer pontos) {
         this.pontos = pontos;
     }
 
-    public String getNivel() {
+    public Integer getNivel() {
         return nivel;
     }
 
-    public void setNivel(String nivel) {
+    public void setNivel(Integer nivel) {
         this.nivel = nivel;
     }
 
-    public String getMoedas() {
+    public Integer getMoedas() {
         return moedas;
     }
 
-    public void setMoedas(String moedas) {
+    public void setMoedas(Integer moedas) {
         this.moedas = moedas;
     }
 

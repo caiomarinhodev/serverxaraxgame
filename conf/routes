@@ -6,8 +6,8 @@
 GET        /                                                 controllers.Application.index()
 GET        /game/login/:code/:email                          controllers.Application.login(code: Integer, email: String)
 GET        /game/register/:email                             controllers.Application.register(email: String)
-GET        /game/update/:email/:moedas/:nivel/:pontos        controllers.Application.update(email: String, moedas: String, nivel: String, pontos: String)
-
+GET        /game/update/:email/:moedas/:nivel/:pontos        controllers.Application.update(email: String, moedas: Integer, nivel: Integer, pontos: Integer)
+GET        /remove/:id                                       controllers.Application.remove(id: Long)
 
 
 
