@@ -66,6 +66,17 @@ public class Application extends Controller {
 
     @Transactional
     public static Result updatePlayer() {
+        DynamicForm r = Form.form().bindFromRequest();
+        String player = r.get("player");
+        JsonNode json = Json.parse(player);
+        String email = json.findPath("nome").toString();
+        Usuario u = Sistema.getUsuario(email);
+        Sistema.updatePlayer(u, player);
+        return ok(Json.parse("{result: 1}"));
+    }
+
+    @Transactional
+    public static Result update(){
         JsonNode json = request().body().asJson();
         if(json == null) {
             return badRequest("Expecting Json data");
