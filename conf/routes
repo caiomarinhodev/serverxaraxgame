@@ -8,7 +8,8 @@ GET         /game/:code/:email          controllers.Application.logintwo(code: I
 POST        /game/login/:code           controllers.Application.loginNoGame(code: Integer)
 POST        /game/register              controllers.Application.registerNoGame()
 POST        /game/update                controllers.Application.updatePlayer()
-POST        /game/testup                controllers.Application.update()
+PUT         /game/testup                controllers.Application.update()
+
 
 
 # Map static resources from the /public folder to the /assets URL path
