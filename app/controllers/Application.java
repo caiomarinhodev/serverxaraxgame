@@ -1,5 +1,6 @@
 package controllers;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import models.Usuario;
 import play.Logger;
 import play.data.DynamicForm;
@@ -7,6 +8,7 @@ import play.data.Form;
 import play.db.jpa.Transactional;
 import play.libs.Json;
 import play.mvc.Controller;
+import play.mvc.Http;
 import play.mvc.Result;
 import play.mvc.Results;
 import views.html.index;
@@ -64,11 +66,18 @@ public class Application extends Controller {
 
     @Transactional
     public static Result updatePlayer() {
-        DynamicForm r = Form.form().bindFromRequest();
-        String player = r.get("player");
-        String email = r.get("email");
-        Usuario u = Sistema.getUsuario(email);
-        Sistema.updatePlayer(u, player);
-        return ok(Json.parse("{result: 1}"));
+        JsonNode json = request().body().asJson();
+        if(json == null) {
+            return badRequest("Expecting Json data");
+        } else {
+            String email = json.findPath("nome").toString();
+            if(email == null) {
+                return badRequest("Missing parameter [name]");
+            } else {
+                Usuario u = Sistema.getUsuario(email);
+                Sistema.updatePlayer(u,json.toString());
+                return ok(email);
+            }
+        }
     }
 }
