@@ -48,7 +48,8 @@ public class Application extends Controller {
         u = Sistema.getUsuario(email);
         if (u != null) {
             Sistema.updatePlayer(u, moedas, pontos, nivel);
-            return ok(Json.parse("{result: 1}"));
+            Usuario newu = Sistema.getUsuario(email);
+            return ok(Json.toJson(newu));
         }
         return badRequest();
     }
